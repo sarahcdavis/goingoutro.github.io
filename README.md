@@ -1,1 +1,1 @@
-# goingoutro.github.iu
+# goingoutro.github.io
