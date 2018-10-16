@@ -1,3 +1,8 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+}
+
 header {
 	background-size: cover;
 	background: url(file:///Users/sarah/Desktop/OUTRO/patterns/Screen%20Shot%202018-06-14%20at%2012.46.50%20PM.png);
@@ -8,15 +13,14 @@ header {
 }
 
 h1, h2, h3 {
-	font-family: helvetica;
 	z-index: 0;
 }
 
 h1 {
 	font-size: 70px;
-	letter-spacing: 60px;
+	letter-spacing: 10px;
 	text-align: center;
-	color: #e800fc;
+	color: #ec008c;
 
 }
 
@@ -37,9 +41,7 @@ h3 {
 }
 
 p {
-	font-family: helvetica;
 	font-size: 20px;
-	letter-spacing: 5px;
 	line-height: 50px;
 }
 
@@ -77,15 +79,13 @@ br {
 }
 
 .parallax { 
-    /* The image used */
-    background-image: url("file:///Users/sarah/Desktop/OUTRO/patterns/Screen%20Shot%202018-06-14%20at%2012.46.50%20PM.png");
-
-    /* Set a specific height */
-    height: 600px; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
